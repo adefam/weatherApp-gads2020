@@ -1,0 +1,32 @@
+{
+    "theme_color": "#020303",
+    "background_color": "#000",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "app_name": "Adefam-Weather-App",
+    "short_name": "adefam",
+    "description": "Weather App",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x",
+            "type": "image/png"
+        }
+    ]
+}

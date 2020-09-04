@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="manifest" href="manifest.json" />
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="red" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="adefam WeatherApp" />
+    <meta name="apple-mobile-web-app-title" content="adefam WeatherApp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adefam WeatherApp</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" href="img/icon-256x256.png" sizes="256x256" />
+</head>
+<body>
+    <!-- <p>Hello World</p> -->
+    <div class="app-wrap">
+
+        <div class="title">WeatherApp</div>
+        
+        <header>
+            <span></span>
+            <input type="text" name="" id="" placeholder="Enter your location" autocomplete="off" class="search-box">
+        </header>
+    
+        <main>
+            <div class="notification"></div>
+            <section class="location">
+                <!-- <div class="notification"></div> -->
+                <div class="city">Location</div>
+                <div class="date">Day Date Month Year</div>
+            </section>
+            <div class="current">
+                <div class="temp">0 <span>&#xba;C</span></div>
+                <div class="iconId"> 
+                    <img src="icons/unknown.png" alt="Weather Icon">
+                </div>
+                <div class="weather">Weather</div>
+                <div class="hi-low">0&#xba;C / 0&#xba;C</div> 
+            </div>
+        </main>
+
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
